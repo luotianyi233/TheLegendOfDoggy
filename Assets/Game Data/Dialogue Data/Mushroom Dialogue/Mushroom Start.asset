@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5796cc0c3d69c743883768b9709a88a, type: 3}
+  m_Name: Mushroom Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Mushroom01
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: Hello, brave! Our captain just told me you were coming to help us. Thank
+      you for your efforts.
+    quest: {fileID: 0}
+    options:
+    - text: My plearsure.
+      targetID: Mushroom02
+      takeQuest: 0
+    - text: Anything I can do?
+      targetID: Mushroom02
+      takeQuest: 0
+  - ID: Mushroom02
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: Oh yes. Can you find three red mushrooms for us to heal the wounded knights?
+    quest: {fileID: 11400000, guid: dfe9c72db322a0d4fb8389b5b9b5824d, type: 2}
+    options:
+    - text: Got it.
+      targetID: 
+      takeQuest: 1

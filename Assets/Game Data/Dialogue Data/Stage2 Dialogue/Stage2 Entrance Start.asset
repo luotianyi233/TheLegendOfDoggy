@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5796cc0c3d69c743883768b9709a88a, type: 3}
+  m_Name: Stage2 Entrance Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: Hello,brave! This is the second area. The monsters inside are very strong.
+      I hope you have enough power weapons and levels to challenge here.
+    quest: {fileID: 0}
+    options:
+    - text: OK, I will pay in attention.
+      targetID: Piece03
+      takeQuest: 0
+    - text: Where can I get powerful weapons?
+      targetID: Piece02
+      takeQuest: 0
+  - ID: Piece02
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: You can ask the knight in the center of the map, and if you complete his
+      task, he will give you a powerful enough weapon.
+    quest: {fileID: 0}
+    options:
+    - text: Get it. Thanks.
+      targetID: Piece03
+      takeQuest: 0
+  - ID: Piece03
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: If you have powerful weapon, can you help me defeat 5 Grunts? I will give
+      you the strongest weapon for revenge, which will help you defeat the hard stone
+      man.
+    quest: {fileID: 11400000, guid: 05ae20bb3f315497f840963532fefa68, type: 2}
+    options:
+    - text: Sure.
+      targetID: 
+      takeQuest: 1

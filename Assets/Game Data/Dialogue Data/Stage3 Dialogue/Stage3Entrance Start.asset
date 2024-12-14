@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5796cc0c3d69c743883768b9709a88a, type: 3}
+  m_Name: Stage3Entrance Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: PIece01
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: Hello,brave! This is the third area. This place has been occupied by stone
+      golems. If you want to defeat them, you must use a heavy sword.
+    quest: {fileID: 0}
+    options:
+    - text: OK,I will pay in attention.
+      targetID: Piece03
+      takeQuest: 0
+    - text: Where can I get the heavy sword.
+      targetID: Piece02
+      takeQuest: 0
+  - ID: PIece02
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: You can look for the knight at the entrance to the second area, and if
+      you complete his task, he will give you the huge heavy sword.
+    quest: {fileID: 0}
+    options:
+    - text: Get it, thanks.
+      targetID: Piece03
+      takeQuest: 0
+  - ID: PIece03
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: If you have the heavy huge sword, can you help me defeat the Golem? I will
+      give you the some mushroom which can make you stronger.
+    quest: {fileID: 11400000, guid: 0ac06a2dff76e4d56b45104684c9aff3, type: 2}
+    options:
+    - text: Sure.
+      targetID: 
+      takeQuest: 1

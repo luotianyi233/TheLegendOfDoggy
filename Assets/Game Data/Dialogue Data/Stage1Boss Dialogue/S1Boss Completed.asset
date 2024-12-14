@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5796cc0c3d69c743883768b9709a88a, type: 3}
+  m_Name: S1Boss Completed
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: PIece01
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: I knew you'd win! Those monsters just dropped this after they died. Take
+      this, and the return portal will open.
+    quest: {fileID: 11400000, guid: 8e519636080d1274c8d6f2ebe2ab4ef3, type: 2}
+    options:
+    - text: Let me see...
+      targetID: 
+      takeQuest: 1

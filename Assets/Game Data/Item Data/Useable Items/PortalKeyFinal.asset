@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4b385c1ea8d5a4eb16e21c440f6ca8, type: 3}
+  m_Name: PortalKeyFinal
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: ReturnPortalKey
+  itemIcon: {fileID: 21300000, guid: b9829d05ea556574286afe50600d8cb2, type: 3}
+  itemAmount: 1
+  description: Use the key to summon portal of this area.
+  stackable: 0
+  useableItem: {fileID: 11400000, guid: 3ec78e80a98dc428bb7303549b6be3cf, type: 2}
+  weaponPrefab: {fileID: 0}
+  weaponData: {fileID: 0}
+  weaponAnimator: {fileID: 0}

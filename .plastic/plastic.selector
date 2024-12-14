@@ -1,0 +1,3 @@
+repository "ApplicationWorks@wechat_os_Qy085yw95BUW44vCIZYAEvUt0@cloud"
+  path "/"
+    smartbranch "/main"

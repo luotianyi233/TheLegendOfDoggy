@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4b385c1ea8d5a4eb16e21c440f6ca8, type: 3}
+  m_Name: FF7Sword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Buster Sword
+  itemIcon: {fileID: 21300000, guid: 1012eb45f2abd6747897064edc8fca5d, type: 3}
+  itemAmount: 1
+  description: 'A big and heavy sword.
+
+    Even the stone Golem can be defeated.'
+  stackable: 0
+  useableItem: {fileID: 0}
+  weaponPrefab: {fileID: 6095999526935855706, guid: 43fe8e7a64a3dc1478a70adf08210e38,
+    type: 3}
+  weaponData: {fileID: 11400000, guid: f9122d0471b21bf41b3e20ac74c63305, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: 7e6f6ed936085ac4fbcb17dc91b13907, type: 2}

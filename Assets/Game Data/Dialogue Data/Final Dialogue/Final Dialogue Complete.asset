@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5796cc0c3d69c743883768b9709a88a, type: 3}
+  m_Name: Final Dialogue Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: c7204d7c0db78e54696b51c9690131ee, type: 3}
+    text: I knew you'd win! Those monsters just dropped this after they died. Take
+      this, and the return portal will open.
+    quest: {fileID: 11400000, guid: cd9d848c21db0462eaf5a13e705a57a2, type: 2}
+    options:
+    - text: Let me see...
+      targetID: 
+      takeQuest: 1

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1013d597752cebc4692f144a8866c6a3, type: 3}
+  m_Name: FF7 Quest
+  m_EditorClassIdentifier: 
+  questName: Defeat Grunt
+  description: 'You solved the problem in the first area. Good.
+
+    There are now
+    many Grunt threatening the safety of the next area, defeat their leader.
+
+    This
+    sword in your hand is not enough to defeat the stone Golem in the third area,
+    after you solve the trouble in the second area, I will give you a stronger weapon
+    to face them.'
+  isStarted: 0
+  isCompleted: 0
+  isFinished: 0
+  questRequires:
+  - name: GruntWizard
+    requireAmount: 1
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: c6d74e5ffd1b8ea44bb29677ec3b034a, type: 2}
+    amount: 1
